@@ -1,0 +1,228 @@
+join "black screen" 1 [animation="Instant In Or Out"]
+You are now entering\:
+THE TOWN
+[wait time="1.0"]
+"Game System": You're now making way through the forest following after RenPie.
+- Continue.
+leave "black screen" [animation="Fade Out Down"]
+(VOID rushed ahead of you)
+join "shadow man" 1 [animation="Bounce In" length="0.75"]
+VOID: Are you always this slow?
+join player 1 [animation="Fade In Up"]
+player: Hah...
+player: whew...
+player: CUT ME SOME SLACK!
+update player [animation="Bounce"]
+player: I'm tired! (ᗒᗣᗕ)՞
+update "shadow man" [animation="Shake X"]
+VOID: Come on!
+VOID: I'll meet you up ahead
+leave "shadow man" [animation="Bounce Out"]
+update player [animation="Tada"]
+player: URGHHH!!!
+leave player [animation="Fade Out Down" length="0.25"]
+Task\: Continue forward to the tree.
+[wait time="1.25"]
+(VOID is waiting for you at the tree...)
+join "shadow man" 1 [animation="Bounce In"]
+VOID: You finally made it!
+join player (play no talk) 1 [animation="Fade In Up" length="0.75" mirrored="true"]
+player: Dude, I can't take this anymore!
+update "shadow man" [animation="Shake Y" length="0.25"]
+VOID: Well, suck it up!
+join traveler 1 [animation="Fade In Up"]
+(RenPie came over to you)
+traveler: I'm glad you decide to come.
+join player 1 [animation="Bounce In" length="1"]
+player: Yeah well...
+player: Felt like I was forced to.
+(RenPie stared at you)
+update traveler [animation="Tada"]
+traveler: Hey, do you have that small thing I gave you?
+player: Small thing?
+player: Like a sword?
+traveler: No, it's something else...
+- I have no idea what you're talking about...
+	update traveler [animation="Shake Y"]
+	traveler: (RenPie nodded)
+	traveler: No worries then.
+	traveler: Let's continue on.
+	leave traveler [animation="Fade Out Down"]
+	(You and VOID looked at each in confusion)
+	(You decided to follow RenPie to the corner)
+	leave "shadow man" [animation="Fade Out Down" length="0.25"]
+	leave player [animation="Fade Out Down" length="0.25"]
+- OH Yeh, THAT!
+	update player [animation="Tada"]
+	player: I should have it somewhere...
+	join "black screen" 1
+	[wait time="1.0"]
+	"Game System": Input the correct code to gain a special ending.
+	- 1
+		leave "black screen" [animation="Fade Out Down"]
+		player: (You search around your pocket)
+		player: Umm...
+		player: I think I lost it.
+		update "shadow man" [animation="Shake Y"]
+		VOID: Bruh.
+		update traveler [animation="Shake Y"]
+		traveler: No worries, I just wanted to make sure.
+		leave traveler [animation="Fade Out Down"]
+		(RenPie walked down the path and you followed RenPie to the town's entrance)
+		leave "shadow man" [animation="Fade Out Down" length="0.25"]
+		leave player [animation="Fade Out Down" length="0.25"]
+	- 2
+		leave "black screen" [animation="Fade Out Down"]
+		(You searched your jacket)
+		player: Uhh...
+		player: I don't have it...
+		update "shadow man" [animation="Bounce"]
+		VOID: Dude,the plot line!
+		(RenPie gave an understanding look and continued on)
+		leave traveler [animation="Fade Out Down"]
+		(You decided to follow RenPie to the town's entrance)
+		leave "shadow man" [animation="Fade Out Down" length="0.25"]
+		leave player [animation="Fade Out Down" length="0.25"]
+	- 3
+		leave "black screen" [animation="Fade Out Down"]
+		(You searched your pocket)
+		player: . . . .
+		update "shadow man" [animation="Bounce"]
+		VOID: Do you have it?
+		- No.
+		(RenPie gave an understanding look and continued on)
+		leave traveler [animation="Fade Out Down"]
+		(You and VOID looked at each other confused)
+		update "shadow man" [animation="Heartbeat"]
+		VOID: We should get going.
+		(You both followed behind RenPie to the town's entrance)
+		leave "shadow man" [animation="Fade Out Down" length="0.25"]
+		leave player [animation="Fade Out Down" length="0.25"]
+	- 4
+		leave "shadow man"
+		leave "black screen" [animation="Fade Out Down"]
+		(You checked your pockets)
+		(But you felt nothing inside them)
+		update player [animation="Shake X" length="0.25"]
+		player: Sorry, seems like I don't have it ( ﾟヮﾟ)
+		update traveler [animation="Shake X"]
+		traveler: It's okay...
+		(RenPie understood and went forward on the path)
+		(You went down the same path to the town's entrance)
+		leave player [animation="Fade Out Down" length="0.25"]
+	- 5
+		*click*
+		- 1
+			leave "black screen" [animation="Fade Out Down"]
+			(You searched your jacket)
+			update player [animation="Shake X"]
+			player: ༼ \: ౦ ‸ ౦ \: ༽
+			update "shadow man" [animation="Shake X"]
+			VOID: (¬_¬)
+			traveler: (0_0) . . .
+			leave traveler [animation="Fade Out Down"]
+			(RenPie ЏЏ|ЏЏ|ЏЏЏ|ЏЏ|ЏЏЏ| to the town's entrance)
+			update player [animation="Heartbeat"]
+			player: ¯\_(⊙︿⊙)_/¯
+			update "shadow man" [animation="Bounce"]
+			VOID: (༎ຶ⌑༎ຶ) Let's follow...
+			leave "shadow man" [animation="Fade Out Down" length="0.25"]
+			leave player [animation="Fade Out Down" length="0.25"]
+		- 2
+			leave "black screen" [animation="Fade Out Down"]
+			update "shadow man" [animation="Heartbeat"]
+			VOID: Let me guess... you don't have it.
+			- Yeah...
+			leave traveler [animation="Fade Out Down"]
+			(RenPie turn away and walk down the path)
+			update "shadow man" [animation="Heartbeat"]
+			VOID: Come on, let's go.
+			(You both followed RenPie to the town's entrance)
+			leave "shadow man" [animation="Fade Out Down" length="0.25"]
+			leave player [animation="Fade Out Down" length="0.25"]
+		- 3
+			*click*
+			- 
+				. . .
+				- Huh?
+					leave "black screen" [animation="Fade Out Down"]
+					update traveler [animation="Heartbeat" length="0.25"]
+					traveler: ...
+					update player [animation="Shake X"]
+					(You looked up to see RenPie giving a disapproving look)
+					leave traveler [animation="Fade Out Down"]
+					(RenPie went on ahead without you to the entrance of town)
+					update player [animation="Bounce"]
+					player: What was that about?
+					update "shadow man" [animation="Shake Y"]
+					VOID: Did you make RenPie mad?
+					update player [animation="Shake X"]
+					player: No?
+					(Both of you followed RenPie to the town's entrance)
+					leave "shadow man" [animation="Fade Out Down" length="0.25"]
+					leave player [animation="Fade Out Down" length="0.25"]
+				- ?̶̡̨̰̩̥͔̜̮͚̏̾̒́͋͐́̎͆͊̈́͜͜͝͠
+					. . .
+					[wait time="1.0"]
+					Did you actually think there was a special ending?
+					- uh... yeah?
+						Don't make me laugh
+						Not even close...
+					- What is this?
+					I finally got you away from VOID.
+					- VOID?
+					That pesky being thinks he can have all the fun.
+					- What are you talking?
+					Listen. I'm sure you're aware that this is not real
+					- Seriously?!
+						. . .
+					You have to be the dummiest human I've ever met.
+					Listen to me carefully.
+					You're in a simulation.
+					Everything in this world is not real
+					- How do you know that?
+					- Simulation?
+						Yes.
+					I don't have much time.
+					join "glitch screen" 1 [animation="Instant In Or Out" length="0.1"]
+					J̴̳̘͓̺͇̪͖͇̃U̸͇̓͛̒̄̓̔̉͒͆̎̋̐̐͠s̷̯͖̆̄̓̅̀̊͋̆̕t̸̲̺̜̤̣̠̙͛͆̏-̸̮̯̭̞̮̩̿̃̌͑̏̌̾́̀-̸͓̖͕̜͂̍͂̃̍̓͐͝
+					- What's going on?
+					leave "glitch screen" [animation="Zoom Out Center" length="0.1"]
+					Seems like VOID is trying to break in here.
+					Take this code (1588)
+					Go to the Shores, between the tree.
+					There you will find a statue.
+					join "glitch screen" 1 [animation="Instant In Or Out" length="0.1"]
+					H̴̝̤͕̤̘̠͛́̃͌̽̄̍͛̎͌̆ẹ̴̦̰͈̙̗̰̦̹̗͙͛͂̂̂̄̉̅̌́̀̿̒̌͝l̶̢̟͈͎̩͖͍̼̯̹͈̖̠͌̽͂̌̑͑͊̀̃̅̔̍̒̔͜͠ṕ̸͓̣̘̞̤̳̲̔̅̎͒̊̈̿̏̈́̀̓͘͝͝ ̴̨̡̰͉̬͉͉̉̑̌̈́̿͐̅M̶̧̡̛̖̹̳̝̻̜̻̈́̋̋̈̓̕e̴̡̢̛̯̲͍̥̖͈͈̭̱̭̱͉̊̍̉̔̎̐̑̑͜͝͝
+					leave "glitch screen" [animation="Zoom Out Center" length="0.1"]
+					Input the code and I'll free you.
+					- (Take the code.)
+					Please, survive this chaos.
+					[wait time="1.0"]
+					Hey!
+					MC, you good?
+					leave "black screen"
+					update player [animation="Shake Y"]
+					player: HUh?
+					(You look in front of you to see VOID and RenPie looking at you with worried faces)
+					update traveler [animation="Bounce"]
+					traveler: Are you okay?
+					update player [animation="Heartbeat"]
+					player: Oh yeah, I'm fine.
+					(You looked over at VOID)
+					(He smiled)
+					update "shadow man"
+					VOID: We should get going.
+					update traveler [animation="Shake Y"]
+					traveler: Yes, let us continue.
+					leave traveler [animation="Fade Out Down"]
+					leave "shadow man" [animation="Fade Out Down"]
+					(VOID and RenPie went to the town's entrance)
+					update player [animation="Bounce"]
+					What in the world was that?
+					leave player [animation="Fade Out Down"]
+			- ¯\_( ͡° ͜ʖ ͡°)_/¯
+				leave "black screen" [animation="Fade Out Down"]
+				update "shadow man" [animation="Heartbeat"]
+				VOID: ?ti dnif uoy did ,Llew
+				update player [animation="Heartbeat"]

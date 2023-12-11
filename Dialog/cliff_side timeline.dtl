@@ -1,0 +1,233 @@
+join "black screen" 1 [animation="Instant In Or Out"]
+You have now entered\:
+THE FOREST
+[wait time="1.0"]
+"Game System": MC and VOID are now following the screams of the forest
+- Continue
+leave "black screen" [animation="Fade Out Down" length="0.75"]
+join player 1 [animation="Fade In Up" length="0.75"]
+player: VOID, wait up!
+join "shadow man" 1 [animation="Bounce In"]
+VOID: Move it along, slowpoke!
+update "shadow man" [animation="Shake Y"]
+VOID: We don't have all day!
+update player [animation="Bounce"]
+player: Why are we in a hurry?
+player: I don't even know what I'm here for.
+leave "shadow man" [animation="Bounce Out"]
+join "void glasses" 1 [animation="Bounce In" length="0.75"]
+"void glasses": For plot development, my dude...
+"void glasses": That's what it is ༼ つ ▀_▀ ༽つ
+update player [ mirrored="true"]
+player: Where did that sunglasses come from? ┌( ಠ_ಠ)┘
+(A scream breaks the air)
+join player 1
+"void glasses": It sounded close by...
+- (Run toward it)
+	(You decided to go for it)
+	Task\: Go forward
+- (Let VOID go first)
+	update "void glasses" [animation="Bounce"]
+	"void glasses": Are you serious?
+	"void glasses": You're suppose to be the main character of this whole game.
+	update "void glasses" [animation="Shake Y"]
+	"void glasses": Stop being a scaredy cat and go for it, you have 10 seconds to get over there.
+	*You were attacked by insults*
+	Task\: Go forward
+leave "void glasses" [animation="Slide Out Down"]
+leave player [animation="Slide Out Down"]
+[wait time="9.0"]
+So you've came.
+[wait time="1.0"]
+join "overview of white" 1 [animation="Fade In Up" length="1"]
+(Before you was a traveler with silky white hair in the middle of the flower field)
+leave "overview of white" [animation="Fade Out Down"]
+join traveler 1 [animation="Fade In Up"]
+join player 1 [animation="Bounce In"]
+player: What?
+player: I came because I heard someone screaming.
+"shadow man": I've been expecting you fellow Traveler.
+"shadow man": My name is RenPie.
+player: (ㆆ _ ㆆ) ?
+player: Now I'm confuse...
+(VOID caught up to both of you)
+join "void glasses" 1
+"void glasses": Alright Gamers, I'm here!
+update traveler [animation="Shake X"]
+traveler: And who might you be?
+join "void glasses" 1 [ mirrored="true"]
+"void glasses": I'm this guy's tourguide
+"void glasses": You can call me...
+update "void glasses" [animation="Bounce" mirrored="true"]
+Sans: SANS!!!
+player: ಠ_ಠ
+update player [animation="Shake X"]
+player: Dude, this is not funny anymore.
+leave "void glasses" [animation="Fade Out Down"]
+join "shadow man" 1 [animation="Bounce In"]
+VOID: Party Pooper!
+VOID: JUST KIDDING!!!
+VOID: The name's VOID.
+VOID: More importantly... did you hear any scream, RenPy?
+traveler: Screams?
+traveler: I don't know what you're talking about.
+update VOID [ mirrored="true"]
+update VOID [ mirrored="true"]
+VOID: Hmm... that's weird
+(You noticed something in the corner of your eyes in the forest but before you could look over)
+update traveler [animation="Heartbeat"]
+leave "shadow man" [animation="Fade Out Down" length="0.75"]
+traveler: Dear Travelers, I am on a quest that is in need of some comrades.
+traveler: Are you willing to aide me on this journey?
+- Yes
+	traveler: Wonderful!
+	traveler: Please take this as a welcoming gift!
+	join sword 1 [animation="Slide In Up" length="1"]
+	*You received a (483) wooden sword!*
+	traveler: We need to hurry!
+	leave traveler [animation="Fade Out Down"]
+	(Renpie ran deeper into the forest)
+	leave player [animation="Fade Out Down"]
+	leave sword [animation="Fade Out Down"]
+	[wait time="1.0"]
+	Task\: Go deeper into the forest
+- No
+	update traveler [animation="Shake Y"]
+	traveler: Are you sure about this?
+	- Yes
+		traveler: . . .
+		- . . .
+		traveler: . . . .
+		traveler: Are you sure...?
+		- Yes
+			update player [animation="Tada"]
+			player: uhh... yeah I'm sorry.
+			traveler: . . . .
+			player: RenPie?
+			join "black screen" 1 [animation="Fade In Up" length="0.25"]
+			traveler: Heheh...
+			So you made your choice.
+			Just like the rest...
+			*You felt an eerie aura from RenPie*
+			- H-hey.
+				~̸̢̞̬̺̙̤̲̠̣̭̊̊̒͑͋͝ͅ~̴̧̛̐̇̐̀̈́̏̈́~̴̨̛̣̥̪̗̱̩̜̻̣̼͍̙͓̈͠ͅ~̵͕̯̰̫̻̲͓̹̳̩̈́̂́̉̒̎͂́́̋͌̐̓̚~̸̧̓̑̾͐̒̈͒̀̑̊̚̚~̴̹̹͓͓̖͌̏͂́͆́̈́̾̌͋͌̓͝͝~̸̧̣̣̖͕̈́̈́̆̈̈́~̵͇͖̎̔͂̆̌͑͘!̴̦̞̦̯̞̻̻̭͇̪͍͖͒̑̾̏̊̉̾͂̀͂̓̕͜
+			(You looked around for VOID)
+			(But you couldn't find him anywhere)
+			(You look back to where RenPie was)
+			[wait time="1.0"]
+			join "white hair monster" 1 [animation="Zoom In Center"]
+			(There was a monster right in front of your face)
+			player: (WHAT THE--!?)
+			(Before you could do anything)
+			update "white hair monster" [animation="Shake X"]
+			(The monster sliced you in half)
+			join red 1 [animation="Fade In Up" length="1.5"]
+			player: Ug--
+			leave "white hair monster"
+			~̸̢̞̬̺̙̤̲̠̣̭̊̊̒͑͋͝ͅ~̴̧̛̐̇̐̀̈́̏̈́~̴̨̛̣̥̪̗̱̩̜̻̣̼͍̙͓̈͠ͅ~̵͕̯̰̫̻̲͓̹̳̩̈́̂́̉̒̎͂́́̋͌̐̓̚~̸̧̓̑̾͐̒̈͒̀̑̊̚̚~̴̹̹͓͓̖͌̏͂́͆́̈́̾̌͋͌̓͝͝~̸̧̣̣̖͕̈́̈́̆̈̈́~̵͇͖̎̔͂̆̌͑͘!̴̦̞̦̯̞̻̻̭͇̪͍͖͒̑̾̏̊̉̾͂̀͂̓̕͜
+			leave red [animation="Fade Out Down"]
+			join "black screen" 1 [animation="Fade In Up"]
+			You died, feeling no pain.
+			[wait time="2.0"]
+			Bad Ending\: Who Are You?
+			[wait time="1.0"]
+			"Game System": The game will end here.
+			Restart the game to get other endings
+			Thank you for playing!
+			[wait time="1.0"]
+			[end_timeline]
+	- No
+		traveler: Then are you willing to join me?
+		- Yes
+			traveler: Excellent!
+			(Renpie gave you something)
+			join sword 1 [animation="Slide In Up" length="1"]
+			*You received a (102) rusty sword!*
+			traveler: We must make haste now!
+			leave traveler [animation="Fade Out Down"]
+			(Renpie ran deeper into the forest)
+			[wait time="0.5"]
+			Task\: Go deeper into the forest
+			leave sword [animation="Fade Out Down"]
+			leave player [animation="Fade Out Down"]
+		- No
+			leave traveler [animation="Fade Out Down" length="0.75"]
+			join "shadow man" 1 [animation="Bounce In" length="0.75"]
+			VOID: Hey, is something wrong?
+			VOID: You just said "NO" three times in a row.
+			player: I'm fine.
+			player: I just need more time to think.
+			update "shadow man" [animation="Tada"]
+			VOID: Alright then (͡ ͡° ͜ つ ͡͡°)
+			leave "shadow man" [animation="Fade Out Down" length="0.75"]
+			join traveler 1 [animation="Fade In Up"]
+			traveler: Will you please join me?
+			- yδe
+				traveler: Good, let's go!
+				leave traveler [animation="Fade Out Down"]
+				(Renpie ran into the forest)
+				[wait time="2.0"]
+				join "shadow man" 1 [animation="Fade In Up" length="0.75"]
+				join player 1 [ mirrored="true"]
+				player: Wasn't I suppose to received something on a quest like this?
+				update "shadow man" [animation="Tada"]
+				VOID: Maybe you just took too long...
+				leave player [animation="Fade Out Down"]
+				leave "shadow man" [animation="Fade Out Down"]
+				[wait time="0.5"]
+				Task\: Go deeper into the forest
+			- ₦∅
+				traveler: I see...
+				traveler: Ok, you don't need to go if you answer this one question correctly.
+				- Sure what is it?
+					traveler: What is 9 + 10?
+					- 21
+						Too bad, guess you gotta go now.(5)
+					- 21
+						Too bad, guess you gotta go now.(90)
+					- 21
+						Too bad, guess you gotta go now.(111)
+					- 21
+						Too bad, guess you gotta go now.(0)
+				leave traveler [animation="Bounce Out"]
+				(RenPie vanished into the forest)
+				(You notice she dropped a note)
+				Note\: Town bottom forest
+				player: I wonder what this means?
+				Task\: Go deeper into the forest.
+			- Is this really a good idea?
+				(You pulled VOID aside to talk to him)
+				leave traveler [animation="Fade Out Down"]
+				join "shadow man" 1 [animation="Fade In Up"]
+				player: Hey, is this really a good idea?
+				player: We just heard a scream in the forest and there was nothing here.
+				VOID: Yeah~
+				VOID: It is suspicious, isn't it?
+				- Explore the forest?
+					update player [animation="Shake Y"]
+					player: I feel like there's something in the forest.
+					player: Let's look around.
+					VOID: Sure, just here for the fun of it.
+					leave player [animation="Fade Out Down"]
+					leave "shadow man" [animation="Fade Out Down"]
+					[wait time="0.75"]
+					Task\: Explore your surrounding.
+				- Take up the quest
+					player: Maybe we're just hearing things.
+					player: Let's take up the quest.
+					update "shadow man" [animation="Shake X"]
+					VOID: Whatever you say \ (•◡•) /
+					join traveler 1 [animation="Fade In Up"]
+					player: Ok, we'll do it!
+					traveler: Thank you fellow traveler.
+					(RenPie gave you something)
+					*You recieved a (53) small box*
+					leave traveler [animation="Fade Out Down"]
+					(RenPie ran deeper into the forest)
+					update "shadow man" [animation="Tada"]
+					VOID: Wow, would you look at that!
+					VOID: You got a small present!
+					(You looked closely at the box)
+					(It has a small star in the middle)
+					[wait time="0.75"]
+					Task\: Go deeper into the forest.

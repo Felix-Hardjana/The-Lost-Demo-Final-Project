@@ -1,0 +1,50 @@
+join "black screen" 1 [animation="Instant In Or Out"]
+[wait time="1.0"]
+join "shadow man" 1 [animation="Bounce In"]
+VOID: Hey there!
+update "shadow man" [animation="Bounce"]
+VOID: You have reached the end of the game.
+VOID: Due to the time given to make this game. I'm sorry to say the creator only had one month to make this. (ᗒᗣᗕ)՞
+update "shadow man" [animation="Shake Y"]
+VOID: But this was an enjoyable experience to make. (っ◕‿◕)っ
+update "shadow man" [animation="Heartbeat"]
+VOID: Yo, MC, RenPie, get in here!
+join traveler 1 [animation="Slide In Right" length="1"]
+join player 1 [animation="Slide In Left" length="1"]
+player: VOID, what's up?
+update "shadow man" [animation="Shake X"]
+VOID: We gotta say goodbye to the gamers out there.
+update player [animation="Heartbeat"]
+player: What, why!?
+update "shadow man" [animation="Bounce"]
+VOID: Because this project is finally at its end.
+VOID: We're not even sure if this project is going to continue after submission.
+update "shadow man" [animation="Shake Y"]
+VOID: So let's say our last goodbye to them.
+[wait time="2.0"]
+update "shadow man" [animation="Bounce"]
+update player [animation="Bounce"]
+update traveler [animation="Bounce"]
+Everyone: Goodbye!
+Everyone: Thanks for playing...
+update "shadow man" [animation="Bounce"]
+Everyone: THE LOST DEMO!!!
+leave player [animation="Slide Out Left" length="1"]
+leave "shadow man" [animation="Fade Out Down" length="2"]
+leave traveler [animation="Slide Out Right" length="1"]
+[wait time="1.5"]
+(There's a note on the floor)
+- Pick up the note.
+	[wait time="1.0"]
+Creator: If you're reading this, then I'm glad you tried the game out.
+Creator: I had a lot of fun making the story (/◕ヮ◕)/ (^o^) (✿◠‿◠)
+Creator: Hopefully the ending weren't too disturbing if you saw some of them.
+[wait time="1.5"]
+Creator: Thank you again for playing this game.
+[wait time="1.0"]
+Happy Ending\: Finished Demo.
+[wait time="2.0"]
+leave "black screen" [animation="Fade Out Down" length="0.75"]
+[wait time="20.0"]
+You're still here?
+You can quit the game now.

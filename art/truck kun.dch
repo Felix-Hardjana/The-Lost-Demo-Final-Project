@@ -1,0 +1,30 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "truck",
+"description": "",
+"display_name": "truck kun",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(200, 350),
+"portraits": {
+"truck": {
+"export_overrides": {
+"image": "\"res://art/truck kun.jpg\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.75,
+"scene": ""
+}
+},
+"scale": 1.0
+}

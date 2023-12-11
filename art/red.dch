@@ -1,0 +1,30 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "red back",
+"description": "",
+"display_name": "MC?",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 100),
+"portraits": {
+"red back": {
+"export_overrides": {
+"image": "\"res://art/red splatter.jpg\""
+},
+"image": "",
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 10.0,
+"scene": ""
+}
+},
+"scale": 1.0
+}

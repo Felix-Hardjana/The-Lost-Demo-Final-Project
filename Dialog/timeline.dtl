@@ -1,0 +1,192 @@
+join "black screen" 1 [animation="Instant In Or Out"]
+narrator: Glad you could join us.
+narrator: Please read this before moving on...
+narrator: This game is only going to be based around dialogue and moving the character since the creator didn't have enough time to code the action sequence part of the game.
+narrator: (Hopefully this is enough to carry his grade to pass the class)
+narrator: This game may be disturbing to some players. Please stop playing the game if it's too much to handle. Your well being is important.
+narrator: Sit back, relax, and enjoy this game!
+narrator: There will be secret passages and main story to interact with.
+narrator: You just need to find it \:)
+- Ok.
+	narrator: Thank you for your cooperation
+	narrator: Now LET's BEGIN\:
+	narrator: THE LOST DEMO!!!!!!!!!!!!
+[wait time="3.0"]
+leave "black screen" [animation="Fade Out Down" length="0.75"]
+You Are Now In\:
+THE SHORES
+player: Ugh, my head...
+join player (normal) 1 [animation="Slide In Up" length="1" wait="true"]
+join player 1 [ mirrored="true"]
+player: Where am I?
+join player 1
+player: How did I get here?
+join "shadow man" (tr) 1 [animation="Bounce In" length="0.25" mirrored="true"]
+"shadow man": hey~
+update player
+player: What the--!?
+- (Punch IT!)
+	"Game System": What's 1234*123?
+	- 124,289
+		"Game System": (You went for a Street Fighter's uppercut)
+		"Game System": But you weren't that skilled and instead broke your back
+		update player [animation="Slide In Up"]
+		player: ARGH!!!!!!!!!
+		MY BACK!!!!!!
+		*You lost your dignity and your back for being bad at math*
+	- 151,782
+		"Game System": Wow... (I'm not sure if you cheated or not)
+		(You went in for the punch)
+		update player [animation="Bounce In"]
+		"Game System": But it went through the entity
+		player: What's going on!?
+		"shadow man": Lol, you actually thought you could touch me?
+		(The entity fell to the ground and laughed so hard)
+		join player 1 [animation="Slide In Up"]
+		player: What are you?!
+	- 34,579
+		update "shadow man" [animation="Slide In Right" length="0.75"]
+		update player [animation="Bounce In" length="0.75" mirrored="true"]
+		leave player [animation="Slide Out Down"]
+		"Game System": You missed so badly and fell to the ground
+		"Game System": *You lost some dignity from this*
+		join player 1 [animation="Slide In Up"]
+		OW!!! OW!!! OW!!!
+		What in the world!?
+- (Take steps back)
+	player: Who are you?!
+"shadow man": Bruh...
+"shadow man": I can't believe this would be your first reaction to me \:(
+player: (You stared at it in confusion)
+"shadow man": Don't you remember who I am?
+- UHhh....
+	update player [animation="Heartbeat"]
+	Do I know you?
+- . . .
+	update player [animation="Shake X"]
+	(You shook your head)
+update "shadow man" [animation="Bounce"]
+"shadow man": I'M YOUR LONG LOST BROTHER!!!
+- AYO WHAT THE *****!?
+	update "shadow man" [animation="Shake Y"]
+	"Your Long Lost Brother": It's true... ‧º·(˚ ˃̣̣̥⌓˂̣̣̥ )‧º·˚
+	"Your Long Lost Brother": Mother abandoned me on the street and you were the only one that came to see me.
+	- B-Brother...
+		update "shadow man" [animation="Shake Y"]
+		"Your Long Lost Brother": Yes... I was worried you might not come back.
+		update player [animation="Tada"]
+		player: Sorry, my memories are still fuzzy.
+		"Your Long Lost Brother": Don't worry, I'm here with you.
+		update "shadow man" [animation="Tada"]
+		(Your brother went to embrace you)
+		- (Hug your brother)
+			join hug 1 [animation="Fade In Up"]
+			(You both ran to each other and embraced each other)
+			"Your Long Lost Brother": I never thought I would have a chance like this again
+			player: Me too.
+			player: Even though I don't remember much
+			"Your Long Lost Brother": Let's stay here together forever \:}
+			[wait time="1.0"]
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			player: What?
+			(You backed away from him)
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			(You then realized while looking at your surrounding, something is off about the environment)
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			(You look down at your hand to see blood on it)
+			(Your left hand has been cut off)
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			(Your eyes started to bleed and your mind begins to blur)
+			leave "shadow man" [animation="Fade Out Down"]
+			"Your Long Lost Brother": Is something wrong brother?
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			Your brother's face...
+			leave player [animation="Fade Out Down"]
+			[wait time="2.0"]
+			join red 1 [animation="Fade In Up"]
+			"Your Brother": D̴̛̞̦̾̔̂̐̽̒̓̉͛̀͊̕͝o̵̡̱̬͂͌̇n̷̳͚̙͚͍̳̖̦͆͑͋̎̐̒̆̓̏̚̚͝'̷̛͖̭̙̟̯̮̳͊̀͊́͗̍̃̕t̸̞͇̰͎̀̑ ̷̢̨͍̹̪̀̒͑͐̈̌͆̃̑̃͛͠͝ͅỹ̸̤̪͇̣̳̲͔̪̮̫͈̭͔̭̬̇̇̑̀͆͗͗͐̅̋̕͠͝o̴͚̫̯̤̐͂ṷ̴͇̝͉͆͒̂̽͆̐̈͑̚̕ ̴̢̲̠̰͆̒̌̋̂̀̂̓̚͝l̸̛̤̫̞̱̞̼̀͗͑̾̿̾̾͝ö̴̯̥̗̰̓̀͒̏͊̄̈́̈́̌̾͑̈͝͝ͅv̸̯͚͋̈̆̊͒̇́̇͒͘͝͝e̸̗̜̽̍̓̔͝ ̷̡̝̯̣͖̝̪̬̥͍̦̬͙̈͘͜ͅm̶̨̨͔̣̣̹̉̓e̵̲̱̰̟͈̜̰̲̼̲̊͂?̵̧̢̼̫͑̈͂͆͆̊̇͐̐̈
+			join Brother 1 [animation="Fade In Up" length="1"]
+			W̷̧̢̭̠̟͚̾̌͂̈́͋̍̌́͛h̷͖̩̊̃͐͑̾̕͠͝͝å̵̢̧͖̟͓͚͙̬̗̃̽̈͋̌̿̓̔͝ẗ̴̛̞̫̪͈̻̣̟́͂̔̅̅͐ͅͅ'̶̢̯̜̥͍͉̰͎͒̅̀̌̍͒͂̃̈͘͘͜͜͝͝s̶͇͔͕̯͇͚̻̦̆͜ ̶̼͈͇̜͖͕̪̼͉́̅͝w̷̢̺̳̦͎̓͒͘ȓ̶̢̭͉̳͗̾͗͘ǫ̷̪̺̤̞̬̠̭̝̾̆̏̊̚n̶̨̡̢̛̞̬̘̬̖̤̩̘̈̈́̈́̇̄͐̅̆̔̒̕͝g̶͇̟͍͍̗̤̫̠͚͉̻̪̬̈́̏͊ ̵̨̳̟̬̯̲͉͇̹̬͓͝b̶̟̟̞̺̙̤̗͙̫̩̮̜̂͂́̊͗͗͠ŗ̴̧͔̝̤̹̘̐̅͘ơ̶̡̹͖̤̠̲̪̬̘̣͆̈̈́̑̽̉̾̔̚ͅt̶̡̛͈͙͕̬̳̪͇͈͈̞̂͐͐̽̃͌͒̍̂̂͝h̶̠͈̫̱̲̺̗̺͚̉͊͒ė̶̛͕͈͖̊͛̊̕͝ȑ̶̮̫̾̒̓̌̽̔͑̾̒͂̓͋̕̚?̵̥̲̰͍̳͇͎̱̙͇̮̔͗̔́́̀͒͐̇̅ͅ
+			player: WHAT IS THIS?!
+			update Brother [animation="Shake Y"]
+			THE ENTITY STABBED YOUR STOMACH!!!
+			update Brother [animation="Shake Y"]
+			player: ARGGHGHGHUGRGHRUAAGAAHHHHHHHHH!!!!!!!!!!!!!!!!!
+			(You fell to the ground)
+			Ẁ̶̞̞̂͐̌̒̾͌̀̏͑̃̋͝͝ͅH̸̰̾̀̐̂̑̕͝͝A̸̡̠̣̰͍̯̺̥͌̄͒̓̌͠Ţ̵̡̺̦̱͎̩̘̣͖̱̫̄̎̎̿̎̒̉̊̕͝'̸͍̲́̀͆̿̑͛̀̋̽̓͘͠S̴̛̜̿̀̒̃̃̉̓̽̃̓̄̐̀̚ ̴͉̙̦̹́͂̆̏͛̑́͗͂̎͂̓̅̐̚W̵͖͌͛̃͋͛̆̔̍R̶̩͇̦̰̖̈́̓̍̍̈́͌͋͜O̵̺͍͖͎̮̞͕̅͂̈́͊̽̆̍̑̍́̕͜͝ͅŅ̴̲̜̥̗̈͌̀̍͒͒̓̄̈́G̸̡̓̏͂͐͂̈̈́͒̀̆̚,̶̨̡̛̛̭̻͈̤̲̮̼̜̅́͆̑͐̐̓̋̇͘͜͜͠ ̶̛̄̐̿̀̂̏̚͜H̴̼̥̟̝̯̮̏͗Ȩ̸̨̣̟̺͎̰̤͇̮̮̰͊͛́̈́̉̽̃̈̕̚͠͠H̶̨̧̨̖̪͎͈̙̣̙̱͌̓̓̂̑͛͘E̵̡̩͈̝͚̪͇̰͛̌̓̿̀̿͂̌̓͘̚̚͜H̴͍͇̝͙̲̫̖͇̲̭͚̙̻̊̐̈͋̊̀̽͑͝Ë̸̲̠͙̟̺̣̘̆͘Ḣ̵̡̛͓͕̻̺͖͎̮̯̦̦͉̄̆̀͋̓͋̑̉̅̕̕͜Ę̸̹̮̗̈̀Ḥ̶͇̥̪̟͙̫͕͍̲̥̖͊Ȩ̸̛̛̗͖͖͈̯͚͚̀͊̀͊̊̾̃͑̐̕͘͠H̵̢͙̯́̐̾̋̄̔̌Ě̶̻͓͓̳̱̰̫̣̱͙̞̊̀͘H̶̙̫̥͎̖͎̍̈͋̑́̔͌̓̐̒ͅḜ̴̡͎͈̫͓̹̜̻̎̅͐͗̓̅̚͘͝͝H̴̰̳̜͕͋̉̏̓͆͝͠É̴͔͎̠͍̩͈̦̤̼̟̙̱̮̞̳͒̿͆̐̀͆͌͊͋̕͝Ḧ̸̛̖͕̝̮̩̗̲̻͈͈̞́̄̎͗̇̈́͜E̶̢̎͆̇̾̓̍̑̾̚H̵̗̖̖̞̰̖̦̒̽̅͒͌̊͐̅̾̎͌̂̕̕͜Ẹ̶̡̨̛̱̼͔̰̝͓̠͉̾͌͌̈́ͅͅH̵͓̲̬͔̣̰͇̀̃̃͐͐̍͗̓̚E̴̥͇̭̲̰̿͆̈̋͗̄̄͘H̷̛̥͙̭̐̓̊̅ͅ
+			update Brother [animation="Shake Y"]
+			The Entity repeatly stabbed you to death.
+			update Brother [animation="Shake Y"]
+			H̵̺̱̬̾̇̈̃̒̍͐̓̔̈́̈́̓̓̌̊Ę̶̡̨͉͓͓̠̝͈̯̂̏̄̄̀̓̈́͋̓͐̈́͝͠Ľ̴̢͇͍͖͕̦̋̂̏̐͆̈́̈́͘͝P̴̢̧̛̮̥̳̘͎̿̌͒͝ ̷̨̘̫̮͉̰̈͗͗̐́̐͜M̶̛̖̭̯̰̖̰̥̖̮͎̖̑͆͂́̑̃͛̇͒̆̎̚̕͠ͅͅE̷̮̫̤̬̼̱̖̊̿͋̈́̎̌.̴̡̯͕͖͙͚̯͈̲̖̎̓̄̒.̵̡̨̨̨͇͎͚̥̈́̈́͊̔̐͊̓̽̈́̈́͆̕͜͝
+			update Brother [animation="Shake Y"]
+			(You thought how did it end up like this?)
+			update Brother [animation="Shake Y"]
+			You died.
+			update Brother [animation="Shake Y"]
+			join "black screen" 1 [animation="Fade In Up"]
+			[wait time="2.0"]
+			Bad Ending\: Was there even a Brother?
+			[wait time="1.0"]
+			"Game System": The game will end here.
+			Restart the game to get other endings
+			Thank you for playing!
+			[wait time="1.0"]
+			[end_timeline]
+		- (Question him)
+			update player [animation="Shake Y"]
+			player: Where are we right now?
+			update "shadow man" [animation="Bounce"]
+			"Your Long Lost Brother": Why should we care about that?
+			"Your Long Lost Brother": We're safe for now.
+			(You looked at him with concern eyes)
+			"Your Long Lost Brother": LOL, I'm having way to much fun with this.
+	- This has to a dream, right?
+		"shadow man": *sigh* You're no fun.
+		"shadow man": At least try to play along with me.
+		(The Entity pouts a bit)
+		update "shadow man" [animation="Tada"]
+		"shadow man": *ahem*
+- NANI!?
+	"Your Long Lost Brother": (He turned his head away from you)
+	update "shadow man" [animation="Heartbeat"]
+	"Your Long Lost Brother": Why did you leave me ONii chan?
+	(Tears rolled down his cheek)
+	"Your Long Lost Brother": And this is how you are treating your own brother?
+	(You stood there stunned by this)
+	"Your Long Lost Brother": You were asleep for 300 years and I had to sacrifice my flesh to save the world from destruction
+	update player [ mirrored="true"]
+	update player
+	player: Wait Wait Wait!!!
+	player: You can't be serious, right!?
+	player: I was asleep for 300 years!?!
+	(Your brother put his hand on your shoulder)
+	"Your Long Lost Brother": Just kidding...
+	player: eh?
+	[wait time="1.0"]
+update "shadow man" [animation="Bounce In" length="0.25"]
+VOID: It's me... VOID!!!
+VOID: The guy who did the intro in all of this!
+player: The what now?
+VOID: ANYWAYS... Enough distractions
+VOID: We got a job to do.
+player: A job?
+player: Also can you explain why I'm here?
+VOID: Oh, you didn't know
+[wait time="1.0"]
+join "black screen" 1 [animation="Fade In Up"]
+join "truck kun" 1 [animation="Fade In Up" length="0.75"]
+VOID: You got ran over by Truck-kun!
+player: What?!
+player: That sounds so fake to me (ㆆ _ ㆆ)
+VOID: Well, blame it on the writers
+leave "truck kun" [animation="Fade Out Down"]
+leave "black screen" [animation="Fade Out Down"]
+(You heard a scream coming from within the forest)
+update "shadow man" [animation="Heartbeat"]
+VOID: Ok, enough chit-chat
+VOID: We need to go toward that scream!
+leave "shadow man" [animation="Bounce Out"]
+(VOID ran straight into the forest)
+player: Isn't it better if we avoid it...?
+leave player [animation="Fade Out Down"]
+Task\: Explore the scream in the forest
